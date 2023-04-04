@@ -32,6 +32,6 @@ export default function Navbar(props) {
   )
 }
 
-Navbar.PropTypes={title:PropTypes.string,
+Navbar.propTypes={title:PropTypes.string,
 home:PropTypes.string,
-about:PropTypes.string,}
+about:PropTypes.string}
